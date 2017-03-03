@@ -67,4 +67,46 @@
         public static $searchSTOButton = 'span.icon-icons_magnifer:nth-child(2)';
         public static $findOutCostRepairButton = 'div.service_left_item:nth-child(3) > div:nth-child(2) > form:nth-child(4) > button:nth-child(6)';
 
+        // page allnews
+        public static $firstNews = '.item > a:nth-child(1) > div:nth-child(1)';
+        // page allarticles
+        public static $firstArticle = '.item > a:nth-child(1) > div:nth-child(1)';
+
+        // page user/enter
+        public static $fieldLogin = ['name' => 'email'];
+        public static $fieldPass = ['name' => 'password'];
+        public static $textSiteEnter = '.panel > h3:nth-child(2)';
+        public static $enterButton = '.button.button_blue';
+        public static $authError = 'div.reg-box-error:nth-child(6)';
+
+        // bid/newbid
+        public static $showAllBrands = ['class' => 'more'];
+        public static $choseBrand = ['class' => 'brand'];
+        public static $choseModel = '.list_model > ul:nth-child(1) > li:nth-child(1)';
+        public static $choseYearOfBiuld = '.list_year > ul:nth-child(1) > li:nth-child(1)';
+        public static $fieldVIN = ['id' => 'new_bid_vin_input'];
+        public static $whatNeedToDo = ['class' => 'todo'];
+        public static $fieldDateRepair = ['class' => 'hasDatepicker'];
+        public static $fieldMyPrice = 'input[id=my_price]';
+        public static $fieldUserName_newBid = ['class' => 'username'];
+        public static $fieldUserPhone_newBid = ['class' => 'phone'];
+        public static $registerFromNewBidButton = ['class' => 'registr_send'];
+
+        public static $folderBrand = '.foldedBrand';
+
+        // page /search
+        public static $fieldWhatNeedToRepair = ['name' => 'text'];
+        public static $selectorBrand = '#react-select-2--value';
+        public static $choseBrandFromList = '#react-select-2--option-0';
+        public static $selectorModel = '#react-select-3--value';
+        public static $choseModelFromList = '#react-select-3--option-0';
+        public static $selectorYear = '#react-select-4--value';
+        public static $choseYearFromList = '#react-select-4--option-0';
+        public static $selectorTypeService = '#react-select-5--value';
+        public static $choseTypeFromList = '#react-select-2--option-0';
+
+        public static $findStoButton = ['class' => 'AppSearch-filter-button-find'];
+        public static $advancedSearchButton = ['class' => 'AppSearch-filter-button-more'];
+        public static $entryForRepairButton = 'div.searchResult-oneResult:nth-child(2) > div:nth-child(3) > form:nth-child(3) > button:nth-child(9)'; // ['class' => 'searchResult-button']
+        //public static $ //
     }
